@@ -2,6 +2,7 @@ import weatherForecastImg from '../assets/weatherimg.png';
 import stickyNotepadImg from '../assets/stickynotepad.png';
 import bubbleGameImg from '../assets/bubblegame.png';
 import todoAppImg from '../assets/todoapp.png';
+import portfolioImg from '../assets/myportfolioimg.png';
 import { GraduationCap, BookOpen, Mail, Phone, MapPin } from 'lucide-react';
 
 export const skills = [
@@ -54,6 +55,14 @@ export const projects = [
     tech: ["HTML", "CSS", "Javascript"],
     liveLink: "https://thorcha-errox.github.io/Sticky-Notepad/",
     githubLink: "https://github.com/thorcha-errox/Sticky-Notepad",
+  },
+  {
+    title: "My Portfolio",
+    description: "A Portfolio webpage that include all details about me,featuring Ai chatbot of myself.",
+    image: portfolioImg,
+    tech: ["React"],
+    liveLink: "https://thorcha-errox.github.io/Archa-Portfolio/",
+    githubLink: "https://github.com/Thorcha-Errox/Archa-Portfolio",
   },
   {
     title: "Bubble Game",
