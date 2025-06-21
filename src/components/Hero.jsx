@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Download, Mail, Github, Linkedin } from 'lucide-react';
 import Myimg from '../assets/picofme.png';
+import MyCV from '../assets/MyCV.pdf'
 import './Hero.css';
 
 const Hero = () => {
@@ -12,6 +13,17 @@ const Hero = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = MyCV;
+    link.download = 'Archa_Vivek_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+
 
   const handleContactClick = () => {
     scrollToSection('contact');
@@ -60,7 +72,7 @@ const Hero = () => {
               with modern technologies and clean, efficient code.
             </p>
             <div className="hero-buttons">
-              <button className="btn btn-primary">
+              <button onClick={handleDownloadCV} className="btn btn-primary">
                 <Download size={18} />
                 Download CV
               </button>
