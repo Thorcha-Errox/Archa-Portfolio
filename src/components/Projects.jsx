@@ -116,7 +116,7 @@ const Projects = () => {
       <div className="projects-container">
         <div className="section-header">
           <h2>MY PROJECTS</h2>
-          <p>I have worked on a wide range of projects, here are some of my recent projects that showcase my skills and experience</p>
+          <p>I have worked on a various of projects, here are some of my recent projects that showcase my skills and experience</p>
         </div>
         <div className="projects-grid">
           {projects && projects.length > 0 ? (
