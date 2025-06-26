@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
   const cardRef = useRef(null);
 
   const handleMouseMove = useCallback(
-    throttle((e) => {
+    throttle((e) => { 
       const card = cardRef.current;
       if (!card || 'ontouchstart' in window) return;
 
