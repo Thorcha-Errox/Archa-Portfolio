@@ -40,6 +40,14 @@ export const skills = [
 ];
 
 export const projects = [
+      {
+    title: "HealthSync-Pro",
+    description: "Eliminating the Last Mile supply chain crisis in public health with Snowflake & AI..",
+    image: portfolioImg,
+    tech: ["React"],
+    liveLink: "https://healthsync-pro.streamlit.app/",
+    githubLink: "https://github.com/Thorcha-Errox/HealthSync-Pro",
+  },
   {
     title: "Weather Forecast",
     description: "A modern weather forecast application built with React featuring real-time weather updates.",
@@ -55,14 +63,6 @@ export const projects = [
     tech: ["HTML", "CSS", "Javascript"],
     liveLink: "https://thorcha-errox.github.io/Sticky-Notepad/",
     githubLink: "https://github.com/thorcha-errox/Sticky-Notepad",
-  },
-  {
-    title: "My Portfolio",
-    description: "A Portfolio webpage that include all details about me,featuring Ai chatbot of myself.",
-    image: portfolioImg,
-    tech: ["React"],
-    liveLink: "https://thorcha-errox.github.io/Archa-Portfolio/",
-    githubLink: "https://github.com/Thorcha-Errox/Archa-Portfolio",
   },
   {
     title: "Bubble Game",
