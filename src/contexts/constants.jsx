@@ -2,7 +2,7 @@ import weatherForecastImg from '../assets/weatherimg.png';
 import stickyNotepadImg from '../assets/stickynotepad.png';
 import bubbleGameImg from '../assets/bubblegame.png';
 import todoAppImg from '../assets/todoapp.png';
-import portfolioImg from '../assets/myportfolioimg.png';
+import healthSyncImg from '../assets/healthSync.png';
 import { GraduationCap, BookOpen, Mail, Phone, MapPin } from 'lucide-react';
 
 export const skills = [
@@ -43,7 +43,7 @@ export const projects = [
       {
     title: "HealthSync-Pro",
     description: "Eliminating the Last Mile supply chain crisis in public health with Snowflake & AI..",
-    image: portfolioImg,
+    image: healthSyncImg,
     tech: ["React"],
     liveLink: "https://healthsync-pro.streamlit.app/",
     githubLink: "https://github.com/Thorcha-Errox/HealthSync-Pro",
