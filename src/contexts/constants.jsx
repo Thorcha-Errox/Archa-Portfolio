@@ -3,6 +3,7 @@ import stickyNotepadImg from '../assets/stickynotepad.png';
 import bubbleGameImg from '../assets/bubblegame.png';
 import todoAppImg from '../assets/todoapp.png';
 import healthSyncImg from '../assets/healthSync.png';
+import RetinAiImg from '../assets/RetinAi.png';
 import { GraduationCap, BookOpen, Mail, Phone, MapPin } from 'lucide-react';
 
 export const skills = [
@@ -40,14 +41,23 @@ export const skills = [
 ];
 
 export const projects = [
-      {
+  {
     title: "HealthSync-Pro",
-    description: "Eliminating the Last Mile supply chain crisis in public health with Snowflake & AI..",
+    description: "Eliminating the Last Mile supply chain crisis in public health with Snowflake & AI",
     image: healthSyncImg,
     tech: ["React"],
     liveLink: "https://healthsync-pro.streamlit.app/",
     githubLink: "https://github.com/Thorcha-Errox/HealthSync-Pro",
   },
+  {
+    title: "RetinAi",
+    description: "An AI-powered diagnostic tool designed to detect Diabetic Retinopathy from retinal images using deep transfer learning.",
+    image: RetinAiImg,
+    tech: ["React"],
+    liveLink: "https://huggingface.co/spaces/ErrorFree/RetinAI-Diagnostic",
+    githubLink: "https://github.com/Thorcha-Errox/Diabetic-Retinopathy-Prediction-Via-MobileNetV2",
+  },
+  
   {
     title: "Weather Forecast",
     description: "A modern weather forecast application built with React featuring real-time weather updates.",
